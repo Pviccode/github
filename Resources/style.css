@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(43, 33, 33, 0.8), rgba(37, 7, 7, 0.4)), url(./Media/pexels-mister-mister-3434523.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 91.6vh;
+    margin-top: 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    text-shadow: 2px 15px 15px #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#meal-list {
+    width: 400px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1.3px solid orangered;
+    margin-right: 20px;
+}
+
+#price {
+    padding: 5px 20px;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
